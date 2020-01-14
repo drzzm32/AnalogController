@@ -260,7 +260,7 @@ void work() {
         } else if (GKEY(MODE_3)) {
             setLED(LED_R);
             x = adcX;
-            y = mpuY;
+            y = -mpuY;
             z = adcZ;
         } else {
             setLED(LED_G);
